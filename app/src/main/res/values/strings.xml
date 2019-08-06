@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">呼叫中心</string>
+    <string name="test_s_help_tip">帮助</string>
+    <string name="test_s_permission_help_tip">当前应用缺少必要权限。\n\n请点击\"设置\"-\"权限\"-打开所需权限。</string>
+    <string name="bottom_tab_top">工作台</string>
+    <string name="bottom_tab_me">我的</string>
+</resources>

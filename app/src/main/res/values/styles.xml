@@ -1,0 +1,57 @@
+<resources>
+    <style name="EditTextStyle">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:background">@null</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="dialogstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">380dp</item>
+        <!--设置Dialog的windowFrame框为无-->
+        <item name="android:windowFrame">@null</item>
+        <!--设置无标题-->
+        <item name="android:windowNoTitle">true</item>
+        <!--是否浮现在activity之上-->
+        <item name="android:windowIsFloating">true</item>
+        <!--是否半透明-->
+        <item name="android:windowIsTranslucent">false</item>
+        <!--设置窗口内容不覆盖-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--设置动画，在这里使用让它继承系统的Animation.Dialog-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--背景是否模糊显示-->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <style name="dialogstyle1" parent="dialogstyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:topLeftRadius">20dp</item>
+        <item name="android:topRightRadius">20dp</item>
+        <item name="android:bottomRightRadius">20dp</item>
+        <item name="android:bottomLeftRadius">20dp</item>
+        <item name="android:layout_height">300dp</item>
+    </style>
+
+    <style name="recordstyle">
+        <item name="android:layout_width">138dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_alignStart">@+id/Addbtn</item>
+        <item name="android:layout_alignBottom">@+id/Callcontent2</item>
+        <item name="android:layout_marginStart">74dp</item>
+        <item name="android:layout_marginBottom">-37dp</item>
+        <item name="android:background">@android:color/holo_blue_light</item>
+        <item name="android:textColor">@android:color/background_light</item>
+        <item name="android:visibility">visible</item>
+        <item name="android:radius">30dp</item>
+    </style>
+
+</resources>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rlayout"
+    android:background="@drawable/lay_shape"
+    style="@style/dialogstyle1">
+
+    <TextView
+        android:id="@+id/Calltype2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Addbtn"
+        android:layout_alignBottom="@+id/Addbtn"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="-85dp"
+        android:drawableLeft="@mipmap/recordicon"
+        android:text="呼叫"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        tools:text="呼叫" />
+
+    <TextView
+        android:id="@+id/Calltime2"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Addbtn"
+        android:layout_alignBottom="@+id/Addbtn"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="-80dp"
+        android:text="2019-10-15 10:15:12"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="12sp"
+        tools:text="2019-10-15 10:15:12" />
+
+    <TextView
+        android:id="@+id/TopNumber"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Addbtn"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textShortMessage"
+        android:lineSpacingExtra="8sp"
+        android:text="15553991103"
+        android:textAlignment="textStart"
+        android:textColor="@android:color/black"
+        android:textAllCaps="true"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:text="15553991103" />
+
+    <TextView
+        android:id="@+id/Customer"
+        android:layout_width="390dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TopNumber"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="-3dp"
+        android:layout_marginTop="52dp"
+        android:text="未知客户"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="18sp"
+        tools:text="未知客户" />
+
+    <TextView
+        android:id="@+id/Addbtn"
+        android:layout_width="391dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/Customer"
+        android:layout_marginBottom="-19dp"
+        android:text="新建联系人"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:visibility="visible"
+        tools:text="新建联系人" />
+
+    <TextView
+        android:id="@+id/Closebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/Customer"
+        android:layout_alignEnd="@+id/TopNumber"
+        android:layout_marginStart="-61dp"
+        android:layout_marginTop="-42dp"
+        android:layout_marginEnd="14dp"
+        android:alpha="0.8"
+        android:background="@android:color/background_light"
+        android:drawableLeft="@mipmap/closeicon1"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/Calltype1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Addbtn"
+        android:layout_alignBottom="@+id/Addbtn"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="-20dp"
+        android:drawableLeft="@mipmap/recordicon"
+        android:textColor="@android:color/black"
+        android:text="呼叫"
+        android:textSize="14sp"
+        tools:text="呼叫" />
+
+    <TextView
+        android:id="@+id/Calltime1"
+        android:layout_width="241dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Addbtn"
+        android:layout_alignBottom="@+id/Addbtn"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="-20dp"
+        android:text="2019-10-15 10:15:12"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="12sp"
+        tools:text="2019-10-15 10:15:12" />
+
+    <TextView
+        android:id="@+id/Callcontent1"
+        android:layout_width="361dp"
+        android:layout_height="43dp"
+        android:layout_alignStart="@+id/Addbtn"
+        android:layout_alignBottom="@+id/Calltime1"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="-45dp"
+        android:text="今天是个好日子，信息化社会的当亲电话机安静的书法家和就爱上对方ad放假回家阿斯蒂芬"
+        android:textSize="12sp"
+        tools:text="今天是个好日子，信息化社会的当亲电话机安静的书法家和就爱上对方ad放假回家阿斯蒂芬" />
+
+    <TextView
+        android:id="@+id/Callcontent2"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/Addbtn"
+        android:layout_alignBottom="@+id/Calltime1"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="-101dp"
+        android:text="今天是个好日子，信息化社会的当亲电话机安静的书法家和就爱上对方ad放假回家阿斯蒂芬"
+        android:textColor="@android:color/black"
+        android:textSize="12sp"
+        tools:text="今天是个好日子，信息化社会的当亲电话机安静的书法家和就爱上对方ad放假回家阿斯蒂芬" />
+
+    <TextView
+        android:id="@+id/Place"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/TopNumber"
+        android:layout_alignTop="@+id/Customer"
+        android:layout_marginStart="117dp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="-32dp"
+        android:text="山东临沂"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/addrecord"
+        style="@style/recordstyle"
+        android:layout_width="98dp"
+        android:layout_height="19dp"
+        android:layout_alignStart="@+id/Addbtn"
+        android:layout_alignBottom="@+id/Callcontent2"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="-29dp"
+        android:text="添加跟进" />
+
+</RelativeLayout>
